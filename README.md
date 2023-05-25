@@ -13,4 +13,4 @@ Flutter utiliza el lenguaje de programación de código abierto Dart, que tambi�
 - Repositorio de ejemplos: [https://github.com/flutter/samples](https://github.com/flutter/samples)
 - Creador: Google
 - Empresa encargada de mantenimiento: Google
-- Fecha de creación: Mayo de 2017
+- Fecha de creación: Mayo de 2015
