@@ -2,7 +2,7 @@
 
 # Frameworks para desarrollo de aplicaciones móviles
 
-Este repositorio contiene información sobre varios frameworks populares utilizados para el desarrollo de aplicaciones móviles.
+Este repositorio contiene información sobre varios frameworks populares utilizados para el desarrollo de aplicaciones móviles y también diferentes patrones de diseño.
 
 ## Flutter
 
@@ -91,3 +91,103 @@ Uno de los mejores datos de este software es que ofrece más de veinticinco func
 |   Xaramin    |          Bueno           |       Popular       |
 |    Ionic     |          Bueno           |       Popular       |
 |   Swiftic    |          Bueno           |     Poco Popular    |
+
+
+
+
+
+## Patrones creacionales
+
+### El patrón Factory Method
+
+Es un patrón de diseño creacional que se utiliza para crear objetos sin especificar la clase exacta de objeto que se creará. En lugar de crear objetos directamente, el patrón Factory Method utiliza una clase o método de fábrica para crear objetos.El patrón Factory Method se utiliza cuando se necesita crear objetos que tienen una estructura compleja o variables y no se pueden crear directamente. 
+
+### El patrón Abstract Factory
+
+Es un patrón de diseño creacional que se utiliza para crear familias de objetos relacionados o dependientes sin especificar sus clases concretas. En lugar de crear objetos directamente, el patrón Abstract Factory utiliza una clase o método de fábrica abstracta que define una interfaz para crear objetos relacionados.Por ejemplo, en un juego, se pueden utilizar diferentes familias de objetos relacionados, como armas, personajes y enemigos. 
+
+### El patrón Builder
+
+Es un patrón de diseño creacional que se utiliza para separar la construcción de un objeto complejo de su representación y permitir su creación paso a paso. El patrón Builder permite crear diferentes objetos complejos utilizando los mismos pasos de construcción. En lugar de tener una clase para cada variante o configuración, se utiliza una clase constructora que permite construir diferentes objetos complejos utilizando los mismos pasos de construcción.
+
+### El patrón Prototype
+
+Es un patrón de diseño creacional que se utiliza para crear nuevos objetos mediante la clonación de objetos existentes. El patrón Prototype permite crear nuevos objetos sin conocer los detalles de su implementación y sin tener que escribir código para crear cada objeto nuevo desde cero. En lugar de crear cada objeto nuevo desde cero, se utiliza un objeto existente como prototipo y se clona para crear un nuevo objeto.
+
+### El patrón Singleton
+
+Es un patrón de diseño creacional que se utiliza para garantizar que una clase tenga una única instancia y que esta instancia sea accesible desde cualquier punto de la aplicación.Esto puede ser útil en situaciones en las que se desea controlar el acceso a un recurso compartido o en las que se desea tener una única instancia de una clase que realiza operaciones costosas. De esta manera, se evita que dos instancias diferentes de la clase intenten acceder y modificar la base de datos al mismo tiempo, lo que podría causar problemas de consistencia.
+#
+
+## Patrones estructurales
+
+### El patrón Adapter 
+
+Es un patrón de diseño estructural que se utiliza para adaptar una interfaz existente a otra interfaz que se espera. El patrón Adapter permite que dos interfaces incompatibles trabajen juntas para lograr un objetivo común. En una aplicación de reproductor de audio, se pueden utilizar diferentes tipos de archivos de audio, como MP3, WAV y FLAC. Cada tipo de archivo de audio puede tener una interfaz diferente para reproducirlo. 
+
+### El patrón Bridge 
+
+Es un patrón de diseño estructural que se utiliza para separar una abstracción de su implementación. El patrón Bridge permite que la abstracción y la implementación puedan variar de forma independiente sin afectar a la otra. Esto puede ser útil cuando se tienen diferentes implementaciones de una misma abstracción o cuando se necesita cambiar la implementación sin afectar a la abstracción.
+
+### El patrón Composite
+
+Es un patrón de diseño estructural que se utiliza para representar una jerarquía de objetos como si fuera un objeto individual. El patrón Composite permite tratar a los objetos individuales y a los grupos de objetos de manera uniforme. Esto es muy útil en situaciones en las que se desea tratar a los objetos individuales y a los grupos de objetos de manera similar, como en un árbol de archivos y carpetas en un sistema operativo.
+
+### El patrón Decorator
+
+Es un patrón de diseño estructural que se utiliza para añadir funcionalidades adicionales a un objeto dinámicamente, sin modificar su estructura original. El patrón Decorator se compone de un objeto decorador que envuelve el objeto original y añade nuevas funcionalidades al mismo. En una aplicación de edición de texto, se puede utilizar el patrón Decorator para añadir diferentes tipos de formato, como negrita y cursiva, a un texto existente. En lugar de modificar el objeto original, se crea un objeto decorador que envuelve el objeto original y añade las funcionalidades adicionales.
+
+### El patrón Abstract Facade
+
+Es un patrón de diseño estructural que se utiliza para proporcionar una interfaz simplificada para un conjunto complejo de clases. El patrón Facade oculta la complejidad del sistema subyacente y proporciona una interfaz de nivel superior más fácil de usar. Esto nos ayuda en situaciones en las que se desea ocultar la complejidad del sistema subyacente y proporcionar una interfaz de nivel superior más fácil de usar, como en una aplicación de procesamiento de imágenes que utiliza múltiples librerías y algoritmos complejos.
+
+### El patrón Abstract Flyweight
+
+Es un patrón de diseño estructural que se utiliza para reducir la cantidad de objetos en una aplicación mediante el uso compartido de objetos similares. El patrón Flyweight se basa en la idea de que muchos objetos pueden compartir ciertas propiedades y que estas propiedades pueden ser separadas de los objetos individuales. Nos favorece en situaciones en las que se necesitan crear muchos objetos pero se desea reducir el consumo de memoria, como en una aplicación de procesamiento de texto que utiliza muchas fuentes diferentes.
+
+### El patrón Abstract Proxy
+
+Es un patrón de diseño estructural que se utiliza para proporcionar un objeto sustituto o representativo de otro objeto. El patrón Proxy se utiliza para controlar el acceso al objeto original y para añadir funcionalidades adicionales al mismo. En una aplicación de acceso remoto a objetos, se puede utilizar el patrón Proxy para controlar el acceso al objeto real y añadir funcionalidades adicionales, como la autenticación y el cifrado de datos. En lugar de acceder directamente al objeto real, se utiliza el proxy para realizar las operaciones necesarias antes o después de acceder al objeto real.
+#
+
+## Patrones de comportamiento
+
+### El patrón Chain of Responsibility
+
+Es un patrón de diseño de comportamiento que se utiliza para procesar una solicitud a través de una cadena de objetos receptores, cada uno de los cuales puede manejar la solicitud o pasarla al siguiente receptor de la cadena. El patrón Chain of Responsibility permite que un conjunto de objetos maneje una solicitud de manera dinámica sin conocer la estructura completa de la cadena de objetos.
+
+### El patrón Command
+
+Es un patrón de diseño de comportamiento que se utiliza para encapsular una solicitud como un objeto, lo que permite parametrizar los clientes con diferentes solicitudes, hacer cola o registrar solicitudes, y soportar operaciones deshacer. El patrón Command separa la solicitud del objeto que la realiza y permite la construcción de sistemas altamente flexibles e interactivos. Esto es útil en situaciones en las que se desea parametrizar los clientes con diferentes solicitudes, hacer cola o registrar solicitudes, y soportar operaciones deshacer, como en una aplicación de edición de texto que utiliza diferentes tipos de comandos para realizar diferentes acciones.
+
+### El patrón Iterator
+
+Es un patrón de diseño de comportamiento que se utiliza para proporcionar una manera eficiente de acceder a los elementos de una colección sin exponer los detalles de la implementación de la colección. El patrón Iterator permite recorrer una colección de objetos sin conocer su estructura subyacente. En una aplicación de gestión de listas de tareas, se puede utilizar el patrón Iterator para proporcionar una manera eficiente de acceder a los elementos de la lista de tareas sin exponer los detalles de la implementación de la lista.
+
+### El patrón Mediator
+
+Es un patrón de diseño de comportamiento que se utiliza para reducir la complejidad y el acoplamiento de un sistema al limitar las interacciones directas entre los componentes del sistema y proporcionar un objeto mediador que coordina las interacciones entre los componentes. El patrón Mediator promueve un bajo acoplamiento y una alta cohesión entre los componentes del sistema.Por ejemplo, en un sistema de chat en línea, se puede utilizar el patrón Mediator para limitar las interacciones directas entre los usuarios y proporcionar un objeto mediador que coordine las interacciones entre los usuarios. 
+
+### El patrón Memento
+
+Es un patrón de diseño de comportamiento que se utiliza para capturar y almacenar el estado interno de un objeto sin violar su encapsulamiento y permitir que el objeto vuelva a su estado anterior en caso de ser necesario. El patrón Memento se utiliza para proporcionar la funcionalidad de deshacer y rehacer en una aplicación. Este patrón nos ayuda a proporcionar la funcionalidad de deshacer y rehacer en una aplicación, como en un editor de texto.
+
+### El patrón Observer
+
+Es un patrón de diseño de comportamiento que se utiliza para definir una dependencia uno-a-muchos entre objetos, de manera que cuando un objeto cambia su estado, todos los objetos que dependen de él son notificados y actualizados automáticamente. El patrón Observer permite que los objetos se comuniquen entre sí de forma flexible y desacoplada. Una de las funcionalidades de este patrón es comunicar cambios en el estado de un objeto a otros objetos, como en un sistema de seguimiento de stock en tiempo real.
+
+### El patrón State
+
+Es un patrón de diseño de comportamiento que se utiliza para permitir que un objeto cambie su comportamiento cuando su estado interno cambia. El patrón State se basa en la encapsulación, donde cada estado posible de un objeto se modela como una clase separada y se delega el comportamiento del objeto a la clase de estado actual. Cada estado concreto implementa el comportamiento real de la transacción en ese estado, y el contexto delega el comportamiento al estado actual.
+
+### El patrón Strategy
+
+Es un patrón de diseño para el desarrollo de software. Se clasifica como patrón de comportamiento porque determina cómo se debe realizar el intercambio de mensajes entre diferentes objetos para resolver una tarea. El patrón estrategia permite mantener un conjunto de algoritmos de entre los cuales el objeto cliente puede elegir aquel que le conviene e intercambiarlo dinámicamente según sus necesidades.
+
+### El patrón Template Method
+
+Es un patrón de diseño de comportamiento que se utiliza para definir el esqueleto de un algoritmo en una superclase, permitiendo que las subclases proporcionen implementaciones específicas de ciertas partes del algoritmo. El patrón Template Method promueve la reutilización del código y la flexibilidad al permitir que las subclases proporcionen implementaciones específicas de ciertas partes del algoritmo.
+
+### El patrón Visitor
+
+Es un patrón de diseño de comportamiento que se utiliza para separar la estructura de un objeto de su funcionalidad, permitiendo que se agreguen nuevas operaciones a una clase sin modificarla directamente. El patrón Visitor se basa en el polimorfismo y la doble despacho, donde se invoca el método adecuado en función del tipo de objeto y del tipo de operación. También permite definir una operación sobre objetos de una jerarquía de clases sin modificar las clases sobre las que opera y representa una operación que se realiza sobre los elementos que conforman la estructura de un objeto. 
