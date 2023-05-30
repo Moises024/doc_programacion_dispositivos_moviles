@@ -93,7 +93,7 @@ Uno de los mejores datos de este software es que ofrece más de veinticinco func
 |   Swiftic    |          Bueno           |     Poco Popular    |
 
 
-#
+###
 
 ## Patrones creacionales
 
