@@ -1,6 +1,6 @@
 # doc_programacion_dispositivos_moviles
 
-# Frameworks para desarrollo de aplicaciones móviles
+# Frameworks para desarrollo de aplicaciones móviles y patrones de diseño
 
 Este repositorio contiene información sobre varios frameworks populares utilizados para el desarrollo de aplicaciones móviles y también diferentes patrones de diseño.
 
