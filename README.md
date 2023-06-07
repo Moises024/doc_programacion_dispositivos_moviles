@@ -104,10 +104,7 @@ Uno de los mejores datos de este software es que ofrece más de veinticinco func
 
 ## Patrones de arquitectura - MVC, MVP, MVVM y Redux/Flu
 
-#
-
 Existen varios patrones de arquitectura utilizados en el desarrollo de aplicaciones móviles y web, a continuación, se describen algunos de los más comunes:
-
 
 1. MVC (Modelo-Vista-Controlador): Es un patrón de arquitectura en el que el código se divide en tres componentes principales: Modelo, Vista y Controlador. El Modelo representa los datos y la lógica de la aplicación, la Vista es la interfaz de usuario y el Controlador maneja la interacción entre el Modelo y la Vista.
 
