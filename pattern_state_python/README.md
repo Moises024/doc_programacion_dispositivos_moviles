@@ -10,10 +10,9 @@ Cuando Contextse crea el objeto, se inicializa con un estado inicial ( ConcreteS
 
 En la ConcreteStateAclase, cuando handle1()se llama, cambia el estado del Contextobjeto a ConcreteStateBy luego maneja la solicitud. De manera similar, en ConcreteStateB, cuando handle2()se llama, cambia el estado del Contextobjeto de nuevo a ConcreteStateA.
 
+#
 
 ## Comparación del patrón de diseño State con React Context y Redux
-
-#
 
 React Context y Redux son dos enfoques para manejar el estado en aplicaciones React. A continuación, se presenta una comparación entre ambos:
 
