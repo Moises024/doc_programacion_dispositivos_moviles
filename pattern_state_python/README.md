@@ -97,8 +97,6 @@ Redux:
 - Los componentes envían acciones al store para actualizar el estado, y los cambios en el estado se propagan a los componentes que están suscritos al store.
 - Redux es una solución más potente y escalable que Context y es adecuada para aplicaciones grandes y complejas que tienen muchos datos compartidos.
 
-En resumen, React Context y Redux son enfoques diferentes para manejar el estado en aplicaciones React. Context es más simple y liviano, mientras que Redux es más potente y escalable. La elección entre ambos dependerá de las necesidades específicas de la aplicación. Si se trata de una aplicación pequeña o mediana con pocos datos compartidos, Context puede ser suficiente. Si se trata de una aplicación grande y compleja que tiene muchos datos compartidos, Redux puede ser más adecuado.
-
 Por otro lado, es bueno saber que tanto React Context como Redux proporcionan un camino para compartir por fuera del árbol de componentes el estado. Sin embargo, para conseguir este efecto, internamente comparten diferentes cosas: Context comparte el value , mientras que. Redux comparte su store (que no su estado).
 
 
