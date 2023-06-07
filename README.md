@@ -1,6 +1,6 @@
 # doc_programacion_dispositivos_moviles
 
-# Temas impartidos en la materia de programación de dispositivos móviles
+# Temas impartidos en la materia "programación de dispositivos móviles"
 
 Este repositorio contiene información sobre varios temas que han sido impartidos en las clases virtuales.
 
