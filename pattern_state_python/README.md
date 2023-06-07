@@ -70,7 +70,7 @@ if __name__ == "__main__":
     context.request1()
     context.request2()
 
-    
+#
     
 Esta es una implementación del patrón de diseño State en Python. El patrón State permite que un objeto altere su comportamiento cuando cambia su estado interno. Implica la creación de objetos de estado que representan los diversos estados de un objeto y la definición de métodos en esos estados que definen lo que debería suceder cuando el objeto pasa de un estado a otro.
 
