@@ -100,9 +100,9 @@ Uno de los mejores datos de este software es que ofrece más de veinticinco func
 #
 #
 
-#Patrornes de arquitectura y de diseño
+# Patrornes de arquitectura y de diseño
 
-# Patrones de arquitectura - MVC, MVP, MVVM y Redux/Flu
+## Patrones de arquitectura - MVC, MVP, MVVM y Redux/Flu
 
 #
 
