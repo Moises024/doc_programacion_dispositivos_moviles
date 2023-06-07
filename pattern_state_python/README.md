@@ -72,7 +72,7 @@ if __name__ == "__main__":
 
 #
     
-Esta es una implementación del patrón de diseño State en Python. El patrón State permite que un objeto altere su comportamiento cuando cambia su estado interno. Implica la creación de objetos de estado que representan los diversos estados de un objeto y la definición de métodos en esos estados que definen lo que debería suceder cuando el objeto pasa de un estado a otro.
+Esta es una implementación del patrón de diseño State en Python. El patrón State permite que un objeto cambie su comportamiento en función de su estado interno. El patrón de diseño State se compone de tres elementos principales: el contexto, el estado y las transiciones de estado. 
 
 En esta implementación, la Contextclase representa el objeto cuyo estado puede cambiar. Tiene un _stateatributo que contiene el estado actual del objeto. Statees una clase base abstracta que define la interfaz para los estados concretos. Las clases ConcreteStateAy ConcreteStateBson las clases de estado concreto que implementan el comportamiento del objeto en diferentes estados.
 
