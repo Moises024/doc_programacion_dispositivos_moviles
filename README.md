@@ -1,8 +1,10 @@
 # doc_programacion_dispositivos_moviles
 
-# Frameworks para desarrollo de aplicaciones móviles y patrones de diseño
+# Temas impartidos en la materia programación de dispositivos móviles
 
-Este repositorio contiene información sobre varios frameworks populares utilizados para el desarrollo de aplicaciones móviles y también diferentes patrones de diseño.
+Este repositorio contiene información sobre varios temas que han sido impartidos en las clases virtuales.
+
+#Frameworks para desarrollo de aplicaciones móviles
 
 ## Flutter
 
@@ -96,6 +98,24 @@ Uno de los mejores datos de este software es que ofrece más de veinticinco func
 #
 #
 
+#Patrornes de arquitectura y de diseño
+
+# Patrones de arquitectura - MVC, MVP, MVVM y Redux/Flu
+
+#
+
+Existen varios patrones de arquitectura utilizados en el desarrollo de aplicaciones móviles y web, a continuación, se describen algunos de los más comunes:
+
+
+1. MVC (Modelo-Vista-Controlador): Es un patrón de arquitectura en el que el código se divide en tres componentes principales: Modelo, Vista y Controlador. El Modelo representa los datos y la lógica de la aplicación, la Vista es la interfaz de usuario y el Controlador maneja la interacción entre el Modelo y la Vista.
+
+2. MVP (Modelo-Vista-Presentador): Es una variante del patrón MVC en el que el Presentador es responsable de manejar la lógica de la aplicación y la interacción con el Modelo y la Vista. El Presentador es responsable de actualizar la Vista con los datos del Modelo y procesar las interacciones del usuario.
+
+3. MVVM (Modelo-Vista-ViewModel): Es un patrón de arquitectura en el que el ViewModel es responsable de manejar la lógica de la aplicación y la interacción entre el Modelo y la Vista. El ViewModel se encarga de actualizar la Vista con los datos del Modelo y procesar las interacciones del usuario.
+
+4. Redux/Flux: Son patrones de arquitectura utilizados principalmente en aplicaciones web. En estos patrones, el estado de la aplicación se almacena en un único objeto de estado, que es modificado por acciones que se envían a través de un flujo unidireccional. Redux utiliza una sola fuente de verdad para el estado de la aplicación, mientras que Flux permite múltiples fuentes de verdad.
+
+#
 
 ## Patrones creacionales
 
