@@ -1,6 +1,4 @@
 El código que está en main.py nos ilustra la estructura del patrón de diseño State en el lenguaje de progrmación Python.
-
-#
     
 Esta es una implementación del patrón de diseño State en Python. El patrón State permite que un objeto cambie su comportamiento en función de su estado interno. El patrón de diseño State se compone de tres elementos principales: el contexto, el estado y las transiciones de estado. 
 
