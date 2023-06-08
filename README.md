@@ -212,6 +212,8 @@ Es un patrón de diseño de comportamiento que se utiliza para definir el esquel
 
 Es un patrón de diseño de comportamiento que se utiliza para separar la estructura de un objeto de su funcionalidad, permitiendo que se agreguen nuevas operaciones a una clase sin modificarla directamente. El patrón Visitor se basa en el polimorfismo y la doble despacho, donde se invoca el método adecuado en función del tipo de objeto y del tipo de operación. También permite definir una operación sobre objetos de una jerarquía de clases sin modificar las clases sobre las que opera y representa una operación que se realiza sobre los elementos que conforman la estructura de un objeto.
 
+#
+
 ## Patrones de diseño - Hooks vs HOC 
 
 ### Hooks
@@ -230,7 +232,22 @@ La principal diferencia entre los Hooks y los HOC es que los Hooks se utilizan d
 Redux es una biblioteca de gestión de estado de JavaScript que se utiliza comúnmente en aplicaciones de React. Redux proporciona una forma de gestionar el estado de una aplicación de forma centralizada y predecible, lo que facilita el manejo de datos en aplicaciones complejas.
 Redux se basa en tres conceptos principales: el "store", las "acciones" y los "reducers".
 
+El uso de Redux puede tener varios beneficios, como:
+- Facilita la gestión de datos en aplicaciones complejas.
+- Proporciona un enfoque predecible y escalable para la gestión del estado.
+- Facilita la depuración y el seguimiento de los cambios en el estado de la aplicación.
+- Mejora el rendimiento al minimizar las actualizaciones de estado innecesarias.
+- Facilita la compartición de estado entre componentes.
+
+
 
 ## Uso de Context en React
 
 El Context en React es una característica que permite compartir datos entre componentes sin tener que pasar explícitamente los datos a través de las propiedades de los componentes. Context proporciona una forma de pasar datos a través de la cadena de componentes sin tener que pasar los datos a través de cada componente individualmente, lo que puede ser útil en aplicaciones grandes y complejas.
+
+El uso de Context puede tener varios beneficios, como:
+- Facilita el paso de datos entre componentes sin pasarlos explícitamente a través de las propiedades.
+- Reduce la complejidad y la cantidad de código necesaria para pasar datos a través de la cadena de componentes.
+- Facilita la compartición de datos en aplicaciones grandes y complejas.
+- Proporciona un enfoque predecible para la gestión de datos en la aplicación.
+
