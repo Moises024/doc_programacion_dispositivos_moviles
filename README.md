@@ -210,4 +210,27 @@ Es un patrón de diseño de comportamiento que se utiliza para definir el esquel
 
 ### El patrón Visitor
 
-Es un patrón de diseño de comportamiento que se utiliza para separar la estructura de un objeto de su funcionalidad, permitiendo que se agreguen nuevas operaciones a una clase sin modificarla directamente. El patrón Visitor se basa en el polimorfismo y la doble despacho, donde se invoca el método adecuado en función del tipo de objeto y del tipo de operación. También permite definir una operación sobre objetos de una jerarquía de clases sin modificar las clases sobre las que opera y representa una operación que se realiza sobre los elementos que conforman la estructura de un objeto. 
+Es un patrón de diseño de comportamiento que se utiliza para separar la estructura de un objeto de su funcionalidad, permitiendo que se agreguen nuevas operaciones a una clase sin modificarla directamente. El patrón Visitor se basa en el polimorfismo y la doble despacho, donde se invoca el método adecuado en función del tipo de objeto y del tipo de operación. También permite definir una operación sobre objetos de una jerarquía de clases sin modificar las clases sobre las que opera y representa una operación que se realiza sobre los elementos que conforman la estructura de un objeto.
+
+## Patrones de diseño - Hooks vs HOC 
+
+### Hooks
+
+Son características introducidas en React 16.8 que permiten a los desarrolladores utilizar el estado y otras características de React en componentes funcionales. Los Hooks son funciones que se pueden llamar dentro de componentes funcionales y que permiten agregar y actualizar el estado, utilizar efectos secundarios, y otras funcionalidades de React.
+
+### HOC
+
+Por otro lado,  son funciones que reciben un componente como argumento y devuelven un componente nuevo con funcionalidades adicionales. Los HOC se utilizan para encapsular la lógica común de varios componentes en un solo lugar y reutilizarla en diferentes partes de la aplicación.
+
+La principal diferencia entre los Hooks y los HOC es que los Hooks se utilizan dentro de los componentes funcionales, mientras que los HOC se utilizan para envolver componentes y agregar funcionalidad adicional. 
+
+
+## Uso de Redux
+
+Redux es una biblioteca de gestión de estado de JavaScript que se utiliza comúnmente en aplicaciones de React. Redux proporciona una forma de gestionar el estado de una aplicación de forma centralizada y predecible, lo que facilita el manejo de datos en aplicaciones complejas.
+Redux se basa en tres conceptos principales: el "store", las "acciones" y los "reducers".
+
+
+## Uso de Context en React
+
+El Context en React es una característica que permite compartir datos entre componentes sin tener que pasar explícitamente los datos a través de las propiedades de los componentes. Context proporciona una forma de pasar datos a través de la cadena de componentes sin tener que pasar los datos a través de cada componente individualmente, lo que puede ser útil en aplicaciones grandes y complejas.
