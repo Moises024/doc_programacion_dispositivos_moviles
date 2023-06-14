@@ -1,3 +1,5 @@
+Este archivo contiene informaciones que están relacionadas con el lenguaje TypeScript.
+
 
 # Los básicos
 
