@@ -1,3 +1,5 @@
+""" Código del patrón State en Python """
+
 from __future__ import annotations
 from abc import ABC, abstractmethod
 
