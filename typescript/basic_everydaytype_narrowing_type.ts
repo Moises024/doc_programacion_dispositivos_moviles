@@ -13,12 +13,12 @@ message();
 Son situaciones que vienen de forma imprevistas y ocurren durante la ejecución de un programa y que interrumpen su funcionamiento normal.
 */
 
-const user = {
-  name: "Daniel",
+ name: "Daniel",
   age: 26,
 };
-
 user.location;
+
+/* Este código detecta error en la palabra location porque no está definidida en la instancia*/
 
 
 /** Tsc
