@@ -1,3 +1,6 @@
+/** Código del patrón State con TypeScript*/
+
+
 class Context {
     
     private state: State;
