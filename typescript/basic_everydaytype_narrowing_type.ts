@@ -4,7 +4,15 @@
 Es muy importante la comprobación estática de tipos porque es un proceso que se hace en tiempo de compilación para garantizar que el tipo de datos que contiene la variable, expresión o función se ajuste a las reglas de tipos definidas por el lenguaje de programación.
 */
 
-// @errors: 2339
+const message = "hello!";
+ 
+message();
+
+
+/** Fallos excepcionales
+Son situaciones que vienen de forma imprevistas y ocurren durante la ejecución de un programa y que interrumpen su funcionamiento normal.
+*/
+
 const user = {
   name: "Daniel",
   age: 26,
@@ -12,21 +20,24 @@ const user = {
 
 user.location;
 
-/** Fallos excepcionales
-Son situaciones que vienen de forma imprevistas y ocurren durante la ejecución de un programa y que interrumpen su funcionamiento normal.
-*/
 
 /** Tsc
 Es un lenguaje de programación en sí mismo, mientras que TypeScript Compiler es la herramienta que se utiliza para compilar el código TypeScript en código JavaScript.
 */
 
-/** Emitiendo con errores
-En TypeScript se pueden emitir errores utilizando la palabra clave throw seguida de un objeto Error. Estos errores se pueden tomar utilizando un bloque try..catch. También se pueden definir errores personalizados mediante la creación de una clase que extiendo la clase Error.
-*/ 
+console.log("Hello world!");
+
 
 /** Tipos explícitos
 Este tipo es utilizado para especificar el tipo de una variable, un parámetro de una función o una propiedad de un objeto de forma explícita. También se pueden utilizar en la determinación de objetos e interfaces.
 */
+
+function greet(person: string, date: Date) {
+  console.log(`Hello ${person}, today is ${date.toDateString()}!`);
+}
+ 
+greet("Maddison", new Date());
+
 
 /** Tipos cotidianos */
 
@@ -48,17 +59,62 @@ Es un tipo particular que representa cualquier tipo de valor. TypeScript no real
 
 /** Funciones
 Es un conjunto o grupo de sentencias que solucionan un problema particular. Las funciones tienen una cabecera que es donde se determina el nombre de la función y un cuerpo que se refiere a las instrucciones.
+*/
+
+const names = ["Alice", "Bob", "Eve"]; 
+
+names.forEach(function (s) {
+  console.log(s.toUpperCase());
+})
+
+names.forEach((s) => {
+  console.log(s.toUpperCase());
+});
+
 
 /** Tipos de objetos
 Se encargan de determinar la estructura y los tipos de propiedades de un objeto.  Para crear este tipo se utiliza la sintaxis de llaves {} y especificando las propiedades del objeto y sus tipos.
 */
 
+function printCoord(pt: { x: number; y: number }) {
+  console.log("The coordinate's x value is " + pt.x);
+  console.log("The coordinate's y value is " + pt.y);
+}
+printCoord({ x: 3, y: 7 });
+
+
 /** Tipos de Unión
 Son aquellos que tienen la función de definir un tipo que puede ser uno de varios tipos diferentes. Este tipo se crea utilizando el operador | entre dos o más tipos.
+*/
+
+function printId(id: number | string) {
+  if (typeof id === "string") {
+    // In this branch, id is of type 'string'
+    console.log(id.toUpperCase());
+  } else {
+    // Here, id is of type 'number'
+    console.log(id);
+  }
+}
+
 
 /** Tipo de alias
 Es una característica que permite definir un nombre personalizado para un tipo existente. Los tipos de alias se crean utilizando la palabra clave type, seguida del nombre del alias y la definición del tipo.
 */
+
+type Point = {
+  x: number;
+  y: number;
+};
+ 
+// Exactly the same as the earlier example
+function printCoord(pt: Point) {
+  console.log("The coordinate's x value is " + pt.x);
+  console.log("The coordinate's y value is " + pt.y);
+}
+ 
+printCoord({ x: 100, y: 100 });
+
 
 /** Tipos literales
 Son aquellos que definen los tipos que representan valores específicos y limitar el conjunto de valores que una variable puede tomar.
