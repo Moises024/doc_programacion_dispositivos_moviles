@@ -105,7 +105,7 @@ La función comienza en el índice 0 del arreglo `arr` y utiliza un bucle `for` 
 
 ### Definición de Big O
 
-La complejidad temporal de este problema es de O(N), donde N es la longitud del arreglo arr. Esto se debe a que se utiliza un enfoque de ventana deslizante para encontrar la subcadena más pequeña que tiene una suma mayor o igual a S. En cada iteración del ciclo for, se incrementa el valor de windowSum con el valor del elemento actual de arr, y luego se reduce el tamaño de la ventana deslizante moviendo el índice windowStart hacia la derecha mientras windowSum sea mayor o igual a S. 
+La complejidad temporal de este problema es de O(N), donde N es la longitud del arreglo arr. Esto se debe a que se utiliza un enfoque de ventana deslizante para encontrar la subcadena más pequeña que tiene una suma mayor o igual a S. 
 
 Como cada elemento se procesa a lo sumo dos veces, una vez cuando se agrega al windowSum y otra vez cuando se resta del windowSum, la complejidad temporal es de O(N). La complejidad espacial de este problema es de O(1), porque solo se utilizan variables adicionales para almacenar la suma actual de la ventana (windowSum), el índice del inicio de la ventana (windowStart) y la longitud mínima de la subcadena (minLength).
 
