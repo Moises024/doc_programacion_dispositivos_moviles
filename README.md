@@ -1,6 +1,6 @@
 # doc_programacion_dispositivos_moviles
 
-## Moisés Ricardo Zabala Bueno Matricula: 20200927
+## Moisés Ricardo Zabala Bueno   Matricula: 20200927
 
 # Temas impartidos en la materia "programación de dispositivos móviles"
 
