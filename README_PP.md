@@ -28,46 +28,6 @@ Realiza un programa en Typescript que imprima por consola las formas únicas de 
 # 
 
 
-function countUniqueSteps(N: number, X: number[]): number {
-    const memo: number[] = [1];
-
-    for (let i = 1; i <= N; i++) {
-        memo[i] = X.reduce((total, x) => i - x >= 0 ? total + memo[i - x] : total, 0);
-    }
-
-    return memo[N];
-}
-
-function printUniqueSteps(N: number, X: number[]): void {
-    const uniqueSteps = countUniqueSteps(N, X);
-    console.log(`\nNúmero de formas únicas para subir la escalera es: ${uniqueSteps}`);
-    
-    console.log("Formas para subir la escalera:");
-    generateUniqueSteps(N, X, "");
-}
-
-function generateUniqueSteps(N: number, X: number[], path: string): void {
-    if (N === 0) {
-        console.log(path);
-        return;
-    }
-    
-    X.forEach(x => {
-        if (N - x >= 0) {
-            generateUniqueSteps(N - x, X, path + x + " ");
-        }
-    });
-}
-
-const N1: number = 4;
-const X1: number[] = [1, 2];
-printUniqueSteps(N1, X1);
-
-const N2: number = 6;
-const X2: number[] = [1, 3, 5];
-printUniqueSteps(N2, X2);
-
-
 ### Explicación del problema
 
 La función `countUniqueSteps` utiliza un bucle para iterar sobre los valores desde 1 hasta `N`, y para cada valor, utiliza el método `reduce` del arreglo `X` para sumar el número de formas únicas de subir la escalera para cada paso posible. 
@@ -79,7 +39,7 @@ La función `generateUniqueSteps` utiliza un bucle `forEach` para iterar sobre l
 
 La complejidad temporal (O grande) de la countUniqueStepsfunción es O(N*M), donde N es la entrada Ny M es la longitud de la matriz de entrada X. Esto se debe a que la función itera N veces y para cada iteración, utiliza el reducemétodo que itera sobre los M elementos de X.
 
-La complejidad temporal de la generateUniqueStepsfunción es más difícil de determinar, ya que depende del número de formas únicas de subir las escaleras. En el peor de los casos, donde todos los pasos son de tamaño 1, habría N pasos posibles para tomar en cada nivel, y la profundidad de recursión sería N. Esto daría como resultado una complejidad de tiempo de O(N^N), que es muy ineficiente. Sin embargo, en la práctica, el número de formas únicas de subir las escaleras es mucho menor que esto, por lo que la complejidad del tiempo real será menor.
+La complejidad temporal de la generateUniqueStepsfunción es más difícil de determinar, ya que depende del número de formas únicas de subir las escaleras. En el peor de los casos, donde todos los pasos son de tamaño 1, habría N pasos posibles para tomar en cada nivel, y la profundidad de recursión sería N. 
 
 #
 
@@ -113,8 +73,7 @@ Luego, la función utiliza el método `map` para calcular la distancia más cort
 
 La complejidad temporal de este problema es de O(N^2), donde N es la longitud de la cadena s. Esto se debe a que para cada carácter de la cadena s, se realiza un ciclo de longitud N para buscar los índices de todas las ocurrencias del carácter c en la cadena s, y luego se calcula la distancia mínima entre el índice actual y cada uno de los índices encontrados. 
 
-En el peor caso, cuando todos los caracteres de s son iguales a c, se realizarán N iteraciones del ciclo interno para cada carácter de s, lo que resultará en una complejidad de O(N^2). La complejidad espacial de este problema es de O(N), debido al uso de un arreglo para almacenar las distancias mínimas para cada carácter de la cadena s.
-
+En el peor caso, cuando todos los caracteres de s son iguales a c, se realizarán N iteraciones del ciclo interno para cada carácter de s, lo que resultará en una complejidad de O(N^2). 
 
 #
     
