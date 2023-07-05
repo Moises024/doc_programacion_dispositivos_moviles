@@ -1,6 +1,6 @@
 # typescript_interview
 
-### Moisés Ricardo Zabala Bueno   
+### Nombre: Moisés Ricardo Zabala Bueno   
 ### Matricula: 20200927
 
 #
