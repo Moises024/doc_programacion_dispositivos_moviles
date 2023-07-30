@@ -262,7 +262,9 @@ El uso de Context puede tener varios beneficios, como:
 
 # Diseño atómico
 
-Es una forma de cómo se organizan los componentes dentro de un proyecto. También es una metodología que compara la creación del diseño de una aplicación o una web con la agrupación de átomos, moléculas y organismos. Esto significa que se basa en que, cuando se crea un átomo, este, acompañado por otros átomos, forma una molécula y, a su vez, esas moléculas crean un organismo que deriva en un sistema. Este diseño consta de 5 niveles:
+Es una forma de cómo se organizan los componentes dentro de un proyecto. También es una metodología que compara la creación del diseño de una aplicación o una web con la agrupación de átomos, moléculas y organismos. Esto significa que se basa en que, cuando se crea un átomo, este, acompañado por otros átomos, forma una molécula y, a su vez, esas moléculas crean un organismo que deriva en un sistema. Este diseño consta de 5 niveles: 
+
+#
 
 - Átomos
 - Moléculas
@@ -270,6 +272,7 @@ Es una forma de cómo se organizan los componentes dentro de un proyecto. Tambi�
 - Plantillas
 - Páginas
 
+#
 
 Átomos: Son los componentes básicos de la materia. Los átomos son nuestras etiquetas HTML, como una etiqueta de formulario, una entrada o un botón.
 
