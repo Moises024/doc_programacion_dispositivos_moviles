@@ -286,5 +286,5 @@ Por ejemplo, es común utilizar plantillas para crear interfaces de usuario en a
 
 **Páginas:** Son elementos importantes en el desarrollo de aplicaciones ya que son la interfaz a través de la cual los usuarios interactúan con la aplicación. Una página puede ser una vista única o una colección de vistas que representan una parte específica de la aplicación. 
 
-También son el nivel más alto de fidelidad y debido a que son las más tangibles, normalmente es donde la mayoría de las personas en el proceso pasan la mayor parte de su tiempo y en torno a lo que giran la mayoría de las reseñas. La etapa de la página es esencial ya que es donde probamos la efectividad del sistema de diseño. 
+También son el nivel más alto de fidelidad y debido a que son las más tangibles, normalmente es donde la mayoría de las personas en el proceso pasan la mayor parte de su tiempo y en torno a lo que giran la mayoría de las reseñas. La etapa de la página es esencial ya que es donde se prueba la efectividad del sistema de diseño. 
 
