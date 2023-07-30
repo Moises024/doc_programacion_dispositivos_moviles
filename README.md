@@ -274,7 +274,7 @@ Es una forma de cómo se organizan los componentes dentro de un proyecto. Tambi�
 
 #
 
-* Átomos: * Son los componentes básicos de la materia. Los átomos son nuestras etiquetas HTML, como una etiqueta de formulario, una entrada o un botón.
+**Átomos:** Son los componentes básicos de la materia. Los átomos son nuestras etiquetas HTML, como una etiqueta de formulario, una entrada o un botón.
 
 Moléculas: Son grupos de átomos unidos entre sí y son las unidades fundamentales más pequeñas de un compuesto. Estas moléculas adquieren sus propias propiedades y sirven como la columna vertebral de nuestros sistemas de diseño.
 
